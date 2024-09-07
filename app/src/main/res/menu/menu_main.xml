@@ -1,0 +1,133 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/action_open"
+        android:icon="@drawable/add"
+        android:title="@string/openfile"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_edit_document_24"
+        android:title="@string/new_file"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/undo"
+        android:enabled="true"
+        android:icon="@drawable/undo"
+        android:title="@string/undo"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/redo"
+        android:enabled="true"
+        android:icon="@drawable/redo"
+        android:title="Redo"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/action_save_all"
+        android:icon="@drawable/save"
+        android:title="@string/save_all"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/save"
+        android:title="@string/save_1"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_close_all"
+        android:icon="@drawable/ic_remove_24"
+        android:visible="false"
+        android:title="@string/close_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_print"
+        android:icon="@drawable/print"
+        android:title="@string/print"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/batchrep"
+        android:icon="@drawable/find_replace"
+        android:title="@string/batch_replacement"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/search_next"
+        android:icon="@drawable/arrow_upward"
+        android:title="@string/go_next"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_previous"
+        android:icon="@drawable/arrow_downward"
+        android:title="@string/go_prev"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_close"
+        android:icon="@drawable/close"
+        android:title="@string/close_search"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/replace"
+        android:icon="@drawable/find_replace"
+        android:title="@string/replace"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/insertdate"
+        android:icon="@drawable/calendar_month"
+        android:title="@string/insertdate"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/run"
+        android:icon="@drawable/run"
+        android:title="@string/run"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/stop"
+        android:icon="@drawable/ic_stop_24"
+        android:title="@string/stop"
+        android:visible="false"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/action_open_source_licenses"
+        android:icon="@drawable/ic_info_24"
+        android:title="@string/open_source_licenses"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_exit_to_app_24"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+</menu>

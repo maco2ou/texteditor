@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <!--  このアイテム全部消しても問題なかった　使ってない？
+  <item
+        android:id="@+id/action_open"
+        android:title="@string/openfile"
+        android:icon="@drawable/add"
+        app:showAsAction="always" />
+        -->
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/save_1"
+        android:icon="@drawable/save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/undo"
+        android:enabled="true"
+        android:icon="@drawable/undo"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/redo"
+        android:enabled="true"
+        android:icon="@drawable/redo"
+        android:title="Redo"
+        app:showAsAction="ifRoom"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/batchrep"
+        android:title="@string/batch_replacement"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:title="@string/search"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/search_next"
+        android:icon="@drawable/arrow_upward"
+        android:title="@string/go_next"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_previous"
+        android:icon="@drawable/arrow_downward"
+        android:title="@string/go_prev"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/search_close"
+        android:icon="@drawable/close"
+        android:title="@string/close_search"
+        android:visible="false"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/replace"
+        android:icon="@drawable/find_replace"
+        android:title="@string/replace"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+
+</menu>
