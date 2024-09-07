@@ -1,0 +1,62 @@
+[versions]
+agp = "8.6.0"
+appcompat = "1.7.0"
+collection = "1.4.3"
+commonsNet = "3.9.0"
+commonsVfs2 = "2.9.0"
+desugar_jdk_libs = "2.1.2"
+expandableFab = "1.2.1"
+jsch = "0.2.8"
+juniversalchardet = "2.4.0"
+material = "1.12.0"
+constraintlayout = "2.1.4"
+navigationFragment = "2.7.7"
+navigationUi = "2.7.7"
+asynclayoutinflater = "1.0.0"
+navigationFragmentKtx = "2.7.7"
+navigationUiKtx = "2.7.7"
+coreKtx = "1.13.1"
+activity = "1.9.1"
+
+sshj = "0.38.0"
+kotlinPlugin = "1.8.10"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+junitJunit = "4.13.2"
+
+[libraries]
+
+collection = { module = "androidx.collection:collection", version.ref = "collection" }
+commons-net = { module = "commons-net:commons-net", version.ref = "commonsNet" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+commons-vfs2 = { module = "org.apache.commons:commons-vfs2", version.ref = "commonsVfs2" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+expandable-fab = { module = "com.nambimobile.widgets:expandable-fab", version.ref = "expandableFab" }
+jsch = { module = "com.github.mwiede:jsch", version.ref = "jsch" }
+juniversalchardet = { module = "com.github.albfernandez:juniversalchardet", version.ref = "juniversalchardet" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+asynclayoutinflater = { group = "androidx.asynclayoutinflater", name = "asynclayoutinflater", version.ref = "asynclayoutinflater" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+sshj = { module = "com.hierynomus:sshj", version.ref = "sshj" }
+utilcode = { module = "com.blankj:utilcodex", version = "1.31.1" }
+gson = { module = "com.google.code.gson:gson", version = "2.11.0" }
+jcodings = { module = "org.jruby.jcodings:jcodings", version = "1.0.58" }
+joni = { module = "org.jruby.joni:joni", version = "2.2.1" }
+snakeyaml-engine = { module = "org.snakeyaml:snakeyaml-engine", version = "2.7" }
+jdt-annotation = { module = "org.eclipse.jdt:org.eclipse.jdt.annotation", version = "2.3.0" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+junit-junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version = "2.0.0" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinParcelize = { id = "org.jetbrains.kotlin.plugin.parcelize",  version.ref = "kotlinPlugin"  }
